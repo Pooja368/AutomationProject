@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SIP_SMART Automation Test suite">
+
+	<listeners>
+		<listener class-name="com.smart.qa.ExtentReportsListner.ExtentReportListener_Smart"></listener>
+	</listeners>
+	
+	<test name="Smart Testcases_Regression">
+		<classes>
+			<class name="" />
+		</classes>
+	</test>
+
+	<!-- <test name="Regression"> <classes> <class name=""/> <class name=""/> 
+		</classes> </test> -->
+</suite>
